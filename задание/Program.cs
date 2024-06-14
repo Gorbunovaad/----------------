@@ -13,7 +13,7 @@
 Console.Clear();
 
 
-string[] array = { "abc", "defg", "hijklm", "nop", "q", "rst" };
+string[] array = { "Hello", "2", "world", ":-)" };
 string[] newArray = new string[array.Length];
 
 int newIndex = 0;
