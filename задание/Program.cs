@@ -9,3 +9,11 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
 */
+
+Console.Clear();
+
+
+string[] array = { "abc", "defg", "hijklm", "nop", "q", "rst" };
+string[] newArray = new string[array.Length];
+
+int newIndex = 0;
