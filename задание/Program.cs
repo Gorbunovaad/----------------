@@ -26,3 +26,14 @@ for (int i = 0; i < array.Length; i++)
         newIndex++;
     }
 }
+
+Console.Write('[');
+for (int i = 0; i < newIndex; i++)
+{
+    Console.Write(newArray[i]);
+    if (i < (newIndex - 1))
+    {
+        Console.Write(',');
+    }
+}
+Console.Write(']');
